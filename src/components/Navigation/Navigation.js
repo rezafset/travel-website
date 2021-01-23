@@ -21,19 +21,22 @@ const Navigation = () => {
                     <div class="collapse navbar-collapse  text-center" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase text-light me-lg-3 me-xl-3 me-xxl-3 me-md-0" aria-current="page" href="#">Home</a>
+                                <a class="nav-link text-uppercase text-light me-lg-2 me-xl-2 me-xxl-2 me-md-0" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase text-light me-lg-3 me-xl-3 me-xxl-3 me-md-0" href="#top-place">Top Place</a>
+                                <a class="nav-link text-uppercase text-light me-lg-2 me-xl-2 me-xxl-2 me-md-0" href="#top-place">Top Place</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase text-light me-lg-3 me-xl-3 me-xxl-3 me-md-0" href="#discount">Discount</a>
+                                <a class="nav-link text-uppercase text-light me-lg-2 me-xl-2 me-xxl-2 me-md-0" href="#discount">Discount</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase text-light me-lg-3 me-xl-3 me-xxl-3 me-md-0" href="#packages">Packages</a>
+                                <a class="nav-link text-uppercase text-light me-lg-2 me-xl-2 me-xxl-2 me-md-0" href="#packages">Packages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase text-light me-lg-3 me-xl-3 me-xxl-3 me-md-0" href="#contact">Contact Us</a>
+                                <a class="nav-link text-uppercase text-light me-lg-2 me-xl-2 me-xxl-2 me-md-0" href="#faq">Faq</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase text-light me-lg-2 me-xl-2 me-xxl-2 me-md-0" href="#contact">Contact Us</a>
                             </li>
                             <li class="nav-item">
                                 {/* <a class="nav-link text-uppercase me-3" href="#">Contact Us</a> */}

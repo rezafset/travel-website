@@ -42,12 +42,11 @@ const Package = () => {
                                     <div className="card-footer">
                                         <div className="d-flex flex-row justify-content-between align-items-center">
                                             <h4 className="text-info fw-bold">${packageInfo.price} </h4>
-                                            <Link href="#!" className="btn btn-primary fw-bold">Booking</Link>
+                                            <Link to={"/packageDetails/" + packageInfo.id} className="btn btn-primary fw-bold">Details</Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
 
                         )
                     }

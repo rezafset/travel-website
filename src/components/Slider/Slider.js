@@ -1,8 +1,9 @@
 import React from 'react';
-// import img1 from '../../resource/image/carousel1.jpg';
-import img1 from '../../resource/image/slider1.jpg';
-import img2 from '../../resource/image/slider2.jpg';
-import img3 from '../../resource/image/slider3.jpg';
+import './Slider.css';
+import img1 from '../../resource/image/carousel.jpg';
+import img2 from '../../resource/image/carousel1.jpg';
+import img3 from '../../resource/image/carousel2.jpg';
+import img4 from '../../resource/image/carousel3.jpg';
 
 const Slider = () => {
     return (
@@ -12,11 +13,6 @@ const Slider = () => {
                 class="carousel slide carousel-fade"
                 data-mdb-ride="carousel"
             >
-                <ol class="carousel-indicators">
-                    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"></li>
-                    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"></li>
-                    <li data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"></li>
-                </ol>
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -25,9 +21,10 @@ const Slider = () => {
                             class="d-block w-100"
                             alt="..."
                         />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <div class="carousel-caption d-none d-md-block text-start">
+                            <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
+                            <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                            <button type="button" class="btn btn-info fw-bold mt-3">Enjoy</button>
                         </div>
                     </div>
 
@@ -37,9 +34,10 @@ const Slider = () => {
                             class="d-block w-100"
                             alt="..."
                         />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="carousel-caption d-none d-md-block text-end">
+                            <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
+                            <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                            <button type="button" class="btn btn-danger fw-bold mt-3">Enjoy</button>
                         </div>
                     </div>
 
@@ -49,11 +47,26 @@ const Slider = () => {
                             class="d-block w-100"
                             alt="..."
                         />
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <div class="carousel-caption d-none d-md-block text-center">
+                            <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
+                            <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                            <button type="button" class="btn btn-success fw-bold mt-3">Enjoy</button>
                         </div>
                     </div>
+
+                    <div class="carousel-item">
+                        <img
+                            src={img4}
+                            class="d-block w-100"
+                            alt="..."
+                        />
+                        <div class="carousel-caption d-none d-md-block text-start">
+                            <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
+                            <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                            <button type="button" class="btn btn-dark mt-3 fw-bold">Enjoy</button>
+                        </div>
+                    </div>
+
                 </div>
 
                 <a

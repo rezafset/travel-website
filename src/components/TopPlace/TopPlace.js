@@ -32,7 +32,7 @@ const TopPlace = () => {
                                     <p class="card-text">
                                         {place.text}
                                     </p>
-                                    <Link href="#!" class="btn btn-primary">More Details</Link>
+                                    <Link to={"/placeDetails/"+ place.id} class="btn btn-primary">More Details</Link>
                                 </div>
                             </div>
                         </div>
