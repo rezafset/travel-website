@@ -16,7 +16,7 @@ const Package = () => {
                     {
                         packageDetails.map(packageInfo =>
 
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt-4">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
                                 <div className="card shadow">
                                     <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                         <img

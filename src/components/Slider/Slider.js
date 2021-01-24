@@ -24,7 +24,7 @@ const Slider = () => {
                         <div class="carousel-caption d-none d-md-block text-start">
                             <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
                             <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
-                            <button type="button" class="btn btn-info fw-bold mt-3">Enjoy</button>
+                            <button type="button" class="btn btn-info fw-bold mt-2">Enjoy</button>
                         </div>
                     </div>
 
@@ -37,7 +37,7 @@ const Slider = () => {
                         <div class="carousel-caption d-none d-md-block text-end">
                             <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
                             <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
-                            <button type="button" class="btn btn-danger fw-bold mt-3">Enjoy</button>
+                            <button type="button" class="btn btn-danger fw-bold mt-2">Enjoy</button>
                         </div>
                     </div>
 
@@ -50,7 +50,7 @@ const Slider = () => {
                         <div class="carousel-caption d-none d-md-block text-center">
                             <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
                             <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
-                            <button type="button" class="btn btn-success fw-bold mt-3">Enjoy</button>
+                            <button type="button" class="btn btn-success fw-bold mt-2">Enjoy</button>
                         </div>
                     </div>
 
@@ -63,7 +63,7 @@ const Slider = () => {
                         <div class="carousel-caption d-none d-md-block text-start">
                             <h1 className="display-4 text-capitalize fw-bold">Lorem ipsum </h1>
                             <h3 className="text-capitalize fw-bold">Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
-                            <button type="button" class="btn btn-dark mt-3 fw-bold">Enjoy</button>
+                            <button type="button" class="btn btn-warning mt-3 fw-bold">Enjoy</button>
                         </div>
                     </div>
 

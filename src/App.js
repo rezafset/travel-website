@@ -13,6 +13,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Package from "./components/Package/Package";
 import PackageDetails from "./components/PackageDetails/PackageDetails";
 import PlaceDetails from "./components/PlaceDetails/PlaceDetails";
+import PopularPlace from "./components/PopularPlace/PopularPlace";
 import Slider from "./components/Slider/Slider";
 import TopPlace from "./components/TopPlace/TopPlace";
 
@@ -30,6 +31,7 @@ function App() {
           <Navigation></Navigation>
           <Slider></Slider>
           <TopPlace></TopPlace>
+          <PopularPlace></PopularPlace>
           <Discount></Discount>
           <Package></Package>
           <Faq></Faq>

@@ -2,3 +2,13 @@
     height: 420px;
     width: 100%;    
 }
+@media (max-width: 576px){
+    #place-details img{
+        height: 320px;
+    }
+}
+@media (max-width: 480px){
+    #place-details img{
+        height: 240px;
+    }
+}

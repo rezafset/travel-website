@@ -2,5 +2,17 @@
     
 }
 #contact .fab{
-    font-size: 25px;
+    font-size: 40px;
+}
+.fa-linkedin{
+    border: none;
+    color: #2867B2;
+}
+.fa-twitter-square{
+    border: none;
+    color: #1DA1F2;
+}
+.fa-google-plus-square{
+    border: none;
+    color: #DC4B3E;
 }

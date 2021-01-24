@@ -16,10 +16,10 @@ const Contact = () => {
                             <a href="#"><i class="fab fa-facebook-square me-2"></i></a>
                             <a href="#"><i class="fab fa-linkedin me-2"></i></a>
                             <a href="#"><i class="fab fa-twitter-square me-2"></i></a>
-                            <a href="#"><i class="fab fa-instagram-square"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-square"></i></a>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 pt-4 pt-sm-4 pt-md-0 pt-lg-0 pt-xl-0 pt-xxl-0">
                         <h3 className="text-center">Contact Us</h3>
                         <form action="" className="pt-4">
 

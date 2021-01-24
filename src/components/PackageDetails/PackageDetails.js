@@ -29,8 +29,8 @@ const PackageDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="">
-                            <Link to="" className="btn btn-info fw-bold w-25 mt-3 ">Booking</Link>
+                        <div className="booking-btn">
+                            <Link className="btn btn-info fw-bold  mt-3 ">Booking</Link>
                         </div>
                     </div>
 
@@ -52,8 +52,8 @@ const PackageDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="">
-                            <Link to="" className="btn btn-info fw-bold w-25 mt-3 ">Booking</Link>
+                        <div className="booking-btn">
+                            <Link className="btn btn-info fw-bold mt-3 ">Booking</Link>
                         </div>
                     </div>
 
@@ -77,12 +77,12 @@ const PackageDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="">
-                            <Link to="" className="btn btn-info fw-bold w-25 mt-3 ">Booking</Link>
+                        <div className="booking-btn">
+                            <Link className="btn btn-info fw-bold  mt-3 ">Booking</Link>
                         </div>
                     </div>
                 </div>
-                <div className="text-center pt-2">
+                <div className="text-center py-3">
                     <Link to="/" type="button" className="btn btn-danger mt-4">Go Back Home</Link>
                 </div>
             </div>

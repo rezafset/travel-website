@@ -9,7 +9,7 @@ const PlaceDetails = () => {
     return (
         <div id="place-details" className="container py-3">
             <div className="row">
-                <div className="col-sm-8 col-12">
+                <div className="col-lg-8 col-12">
                     <img src={place.img} className="img-fluid shadow-2-strong rounded" alt=""/>
                     <h2 className="display-6 pt-3">{place.name}</h2>
                     <p>{place.description}</p>
