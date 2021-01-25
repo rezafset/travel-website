@@ -2,10 +2,10 @@ import React from 'react';
 
 const Faq = () => {
     return (
-        <div id="faq" className="pt-5">
+        <div id="faq" className="pt-5" style={{ overflowX: 'hidden' }}>
             <div className="container">
                 <h1 className="display-5 text-uppercase text-center">Faq</h1>
-                <div className="row pt-5">
+                <div className="row pt-4 pb-3">
                     <div className="col-12">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
 

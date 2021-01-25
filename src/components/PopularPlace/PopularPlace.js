@@ -50,9 +50,9 @@ const PopularPlace = () => {
         ]
     }
     return (
-        <div id="popular-place" className="pt-5">
+        <div id="popular-place" className="pt-5" style={{ overflowX: 'hidden' }}>
             <h1 className="display-5 text-uppercase text-center">Popular Place</h1>
-            <div className=" pt-5">
+            <div className=" py-3">
                 <Slider {...settings}>
                     <div className="item">
                         <div class="bg-image">

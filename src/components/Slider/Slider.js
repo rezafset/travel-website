@@ -7,7 +7,7 @@ import img4 from '../../resource/image/carousel3.jpg';
 
 const Slider = () => {
     return (
-        <div id="slider">
+        <div id="slider" style={{ overflowX: 'hidden' }}>
             <div
                 id="carouselBasicExample"
                 class="carousel slide carousel-fade"

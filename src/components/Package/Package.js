@@ -8,10 +8,10 @@ const Package = () => {
     const [packageDetails, setPackageDetails] = useState(packageData)
 
     return (
-        <div id="packages" className="pt-5">
+        <div id="packages" className="pt-5" style={{ overflowX: 'hidden' }}>
             <div className="container">
                 <h1 className="display-5 text-uppercase text-center">Packages</h1>
-                <div className="row">
+                <div className="row my-4">
 
                     {
                         packageDetails.map(packageInfo =>

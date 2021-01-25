@@ -7,7 +7,7 @@ const PackageDetails = () => {
     const { packageId } = useParams();
     const packageCountry = packageData.find(packageCountry => packageCountry.id == packageId);
     return (
-        <div id="package-details" className="pt-3">
+        <div id="package-details" className="pt-3" style={{ overflowX: 'hidden' }}>
             <h2 className="text-center display-5">Stay in {packageCountry.country}</h2>
             <div className="container pt-4">
                 <div className="row">

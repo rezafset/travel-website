@@ -3,7 +3,7 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div id="contact" className="pt-5">
+        <div id="contact" className="pt-5" style={{ overflowX: 'hidden' }}>
             <div className="container">
                 <h1 className="display-5 text-uppercase text-center">contact</h1>
                 <div className="row pt-5">

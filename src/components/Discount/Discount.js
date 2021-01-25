@@ -3,9 +3,9 @@ import './Discount.css';
 
 const Discount = () => {
     return (
-        <div id="discount" className="pt-5">
+        <div id="discount" className="pt-5" style={{ overflowX: 'hidden' }}>
             <h1 className="display-5 text-uppercase text-center">Discount Offer</h1>
-            <div className="overlay mt-5">
+            <div className="overlay mt-5 mb-3">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-12 pt-5 mt-5">

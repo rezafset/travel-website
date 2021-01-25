@@ -7,7 +7,7 @@ const PlaceDetails = () => {
     const { placeId } = useParams();
     const place = fakeData.find(place => place.id == placeId);
     return (
-        <div id="place-details" className="container py-3">
+        <div id="place-details" className="container py-3" style={{ overflowX: 'hidden' }}>
             <div className="row">
                 <div className="col-lg-8 col-12">
                     <img src={place.img} className="img-fluid shadow-2-strong rounded" alt=""/>

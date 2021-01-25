@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div id="footer" className="mt-5 bg-dark text-light">
+        <div id="footer" className="mt-5 bg-dark text-light" style={{ overflowX: 'hidden' }}>
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center py-3">

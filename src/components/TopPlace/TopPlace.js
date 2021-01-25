@@ -8,9 +8,9 @@ const TopPlace = () => {
     const [placeData, setPlaceData] = useState(fakeData);
 
     return (
-        <div className="container pt-5" id="top-place">
+        <div className="container pt-5" id="top-place" style={{ overflowX: 'hidden' }}>
             <h1 className="display-5 text-uppercase text-center">Top Places</h1>
-            <div className="row pt-5">
+            <div className="row py-3">
 
                 {
                     placeData.map(place =>
